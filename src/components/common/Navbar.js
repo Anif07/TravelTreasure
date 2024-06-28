@@ -30,12 +30,10 @@ function Navbar() {
           <ul className="linksContainer">
             <li>
               <NavLink
+                to="/"
                 className={({ isActive }) =>
                   isActive ? "active link" : "link"
                 }
-                // activeClassName="active"
-                // className="navLink link"
-                to="/"
               >
                 <i className="fa-solid fa-house navLinkIcon"></i>Home
               </NavLink>
