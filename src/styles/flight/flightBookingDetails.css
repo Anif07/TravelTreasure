@@ -398,6 +398,9 @@
     width: 160px;
     height: 35px;
   }
+  .plane h1 {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (max-width: 480px) {
   #firstName {
@@ -455,6 +458,9 @@
   }
   .seats-for-fromTo h2 {
     font-size: 1rem;
+  }
+  .plane h1 {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 380px) {
