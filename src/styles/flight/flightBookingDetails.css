@@ -10,6 +10,19 @@
   justify-content: space-between;
   background-color: white;
 }
+.Flightcheckout {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgb(143, 29, 219) 8%,
+    rgb(249, 21, 21) 35%,
+    rgb(235, 142, 13) 96%
+  );
+  background-clip: text;
+  color: transparent;
+  margin: 10px 0;
+  font-size: 2rem;
+}
 .detailsDiv {
   width: 600px;
 }
@@ -150,13 +163,41 @@
   color: transparent;
   margin-bottom: 5px;
 }
+.paylater {
+  color: #f4651e;
+  margin: 5px;
+  font-weight: 600;
+}
+.paymentMethodPara {
+  background-color: rgba(49, 47, 47, 0.484);
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+.paymentCheckbox input {
+  margin-right: 5px;
+}
 .flightPaymentContainer {
   background-color: white;
   padding: 15px;
 }
-.completeMyOrder {
+.FlightcompleteMyOrder {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.FlightcompleteMyOrder button {
+  width: 200px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  font-size: 1.2rem;
+  margin: auto;
+  background-color: #f4651e;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /* seats selecting */
@@ -252,6 +293,9 @@
   border: 1px solid #ccc;
   background-color: #f4f4f4;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -290,6 +334,28 @@
   .line {
     height: 55px;
   }
+  .Flightcheckout {
+    font-size: 1.8rem;
+  }
+  .fareSummaryContainer h2 {
+    font-size: 1.4rem;
+  }
+  .planeSeats {
+    gap: 7px;
+  }
+  .seat {
+    width: 40px;
+    height: 40px;
+  }
+  .planeSeats .seat:nth-child(3n + 3) {
+    margin-right: 20px;
+  }
+  .plane {
+    margin-left: 20px;
+  }
+  .plane h1 {
+    margin: 80px auto;
+  }
 }
 @media screen and (max-width: 576px) {
   .bookingDetailsContainer {
@@ -303,6 +369,34 @@
   }
   #lastName {
     margin: 10px 0 0 97px;
+  }
+  .Flightcheckout {
+    font-size: 1.7rem;
+  }
+  .planeSeats {
+    gap: 7px;
+  }
+  .seat {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+  .planeSeats .seat:nth-child(3n + 3) {
+    margin-right: 15px;
+  }
+  .plane {
+    margin-left: 10px;
+  }
+  .plane h1 {
+    margin: 60px auto;
+  }
+  .seats-for-fromTo h2 {
+    font-size: 1.1rem;
+  }
+  .FlightcompleteMyOrder button {
+    font-size: 0.9rem;
+    width: 160px;
+    height: 35px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -341,6 +435,26 @@
   }
   .detailsDiv {
     width: inherit;
+  }
+  .Flightcheckout {
+    font-size: 1.4rem;
+  }
+  .seatBox {
+    flex-direction: column;
+  }
+  .seatsMainBox {
+    width: 300px;
+    height: 400px;
+  }
+  .flightDetailsForSeats {
+    align-self: flex-start;
+    margin-left: 30px;
+  }
+  .seats-for-fromTo {
+    margin: 10px 20px;
+  }
+  .seats-for-fromTo h2 {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 380px) {

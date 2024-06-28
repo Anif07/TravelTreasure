@@ -56,8 +56,13 @@
   width: 120px;
   padding-left: 5px;
 }
-#noOfPersons {
+#FlightnoOfPersons {
   width: 50px;
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 1rem;
+  padding-left: 4px;
 }
 #flightClass {
   height: 40px;
@@ -74,7 +79,7 @@
 }
 #location,
 #noOfPersons,
-#date {
+#Flightdate {
   border: none;
   outline: none;
   height: 40px;
@@ -198,6 +203,7 @@
   }
   .popularFlightsContainer h1 {
     font-size: 1.3rem;
+    margin-left: 20px;
   }
   .popFlight h4 {
     font-size: 1rem;
@@ -237,6 +243,22 @@
   .popularFlights {
     justify-content: center;
   }
+  .popularFlightsContainer h1 {
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  #flightClass {
+    height: 35px;
+    font-size: 0.9rem;
+  }
+  #Flightdate {
+    font-size: 0.9rem;
+    height: 35px;
+  }
+  #FlightnoOfPersons {
+    width: 40px;
+    height: 30px;
+  }
 }
 @media screen and (max-width: 380px) {
   .searchBtn {
@@ -247,5 +269,15 @@
   }
   .FlightBackgroundImg h1 {
     font-size: 2rem;
+  }
+  .popFlight {
+    width: 130px;
+    height: 150px;
+  }
+  .popFlight h4 {
+    font-size: 0.7rem;
+  }
+  .popularFlights {
+    gap: 10px;
   }
 }

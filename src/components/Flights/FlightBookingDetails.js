@@ -122,7 +122,7 @@ function FlightBookingDetails() {
     <div className="singleFlightDetails">
       <div className="bookingDetailsContainer">
         <div className="detailsDiv">
-          <h1 className="checkout">
+          <h1 className="Flightcheckout">
             <span className="material-symbols-outlined">
               quick_reference_all
             </span>
@@ -271,7 +271,7 @@ function FlightBookingDetails() {
             </div>
           </div>
         </div>
-        <div className="completeMyOrder">
+        <div className="FlightcompleteMyOrder">
           <button type="submit" onClick={() => completeOrderHandler()}>
             Complete My Order
           </button>

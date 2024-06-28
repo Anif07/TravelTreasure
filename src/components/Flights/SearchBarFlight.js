@@ -86,12 +86,12 @@ function SearchBarFlight() {
           </datalist>
         </div>
         <div>
-          <label htmlFor="date">
+          <label htmlFor="Flightdate">
             <i className="fa-solid fa-calendar-days flightSearchIcon"></i>
           </label>
           <input
             type="date"
-            id="date"
+            id="Flightdate"
             name="date"
             min={today}
             value={date}
@@ -100,12 +100,12 @@ function SearchBarFlight() {
           />
         </div>
         <div>
-          <label htmlFor="noOfPersons">
+          <label htmlFor="FlightnoOfPersons">
             <i className="fa-solid fa-user flightSearchIcon"></i>
           </label>
           <input
             type="number"
-            id="noOfPersons"
+            id="FlightnoOfPersons"
             name="noOfPersons"
             placeholder="Persons"
             value={persons}

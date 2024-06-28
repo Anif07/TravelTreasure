@@ -1,8 +1,8 @@
-.flightSearchContainer {
+/* .flightSearchContainer {
   padding: 0 10%;
   margin: 20px auto;
-}
-.FlightSearchform {
+} */
+/* .FlightSearchform {
   background-color: white;
   display: flex;
   padding: 10px 0;
@@ -12,7 +12,7 @@
   border-radius: 15px;
   padding-left: 15px;
   box-shadow: 1px 1px 3px rgb(37, 37, 37), -1px -1px 3px rgb(39, 38, 38);
-}
+} */
 .destination-input-field {
   height: 40px;
   border: none;
@@ -41,39 +41,12 @@
 #noOfPersons {
   width: 50px;
 }
-#flightClass {
-  height: 40px;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-  padding-left: 5px;
-}
-.shiftValues {
-  cursor: pointer;
-}
-.shiftValues i {
-  font-size: 1.2rem;
-}
-#location,
-#noOfPersons,
-#date {
-  border: none;
-  outline: none;
-  height: 40px;
-  font-size: 1rem;
-  padding-left: 4px;
-}
 #noOfPersons {
   width: 80px;
 }
 #location::placeholder {
   font-size: 0.9rem;
   padding-left: 2px;
-}
-.flightSearchIcon {
-  font-size: 1.4rem;
-  color: #f4651e;
-  margin-right: 7px;
 }
 .searchBtn {
   border: none;
@@ -94,12 +67,7 @@
   display: flex;
   align-items: center;
 }
-.FlightSearchform div {
-  margin: 0 5px;
-}
-#flightClass {
-  margin-right: 7px;
-}
+
 .shiftValues {
   margin: 0 7px;
 }

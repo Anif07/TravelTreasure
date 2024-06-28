@@ -51,11 +51,6 @@
   padding-left: 15px;
   box-shadow: 1px 1px 3px rgb(37, 37, 37), -1px -1px 3px rgb(39, 38, 38);
 }
-/* #location,
-#noOfPersons,
-#date {
-  
-} */
 #noOfPersons {
   width: 80px;
 }

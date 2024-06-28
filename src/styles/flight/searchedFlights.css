@@ -105,6 +105,9 @@
   .flightViewDetails h2 {
     font-size: 1.5rem;
   }
+  .details-Of-From-To h1 {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .flightDetails {
@@ -128,6 +131,12 @@
   .flightViewDetails h2 {
     font-size: 1.2rem;
   }
+  .flightSearchContainer {
+    padding: 0 2%;
+  }
+  .details-Of-From-To h1 {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .flightImgContainer img {
@@ -150,6 +159,9 @@
   }
   .flightViewDetails h2 {
     font-size: 1rem;
+  }
+  .details-Of-From-To h1 {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 380px) {
