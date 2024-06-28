@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TravelTreasure/static/css/main.bf61fbd3.css",
-    "main.js": "/TravelTreasure/static/js/main.644ca6af.js",
+    "main.js": "/TravelTreasure/static/js/main.d3c1919c.js",
     "static/css/915.05b7d1e8.chunk.css": "/TravelTreasure/static/css/915.05b7d1e8.chunk.css",
     "static/js/915.adccb2a4.chunk.js": "/TravelTreasure/static/js/915.adccb2a4.chunk.js",
     "static/js/875.4bc76e8e.chunk.js": "/TravelTreasure/static/js/875.4bc76e8e.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/615.783b217f.chunk.js": "/TravelTreasure/static/js/615.783b217f.chunk.js",
     "index.html": "/TravelTreasure/index.html",
     "main.bf61fbd3.css.map": "/TravelTreasure/static/css/main.bf61fbd3.css.map",
-    "main.644ca6af.js.map": "/TravelTreasure/static/js/main.644ca6af.js.map",
+    "main.d3c1919c.js.map": "/TravelTreasure/static/js/main.d3c1919c.js.map",
     "915.05b7d1e8.chunk.css.map": "/TravelTreasure/static/css/915.05b7d1e8.chunk.css.map",
     "915.adccb2a4.chunk.js.map": "/TravelTreasure/static/js/915.adccb2a4.chunk.js.map",
     "875.4bc76e8e.chunk.js.map": "/TravelTreasure/static/js/875.4bc76e8e.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.bf61fbd3.css",
-    "static/js/main.644ca6af.js"
+    "static/js/main.d3c1919c.js"
   ]
 }
