@@ -1,0 +1,166 @@
+.searchBarContainer {
+  background-color: #050c9c;
+  /* height: 120px; */
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details-Of-From-To {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.details-Of-From-To h1 {
+  border-bottom: 3px solid #f4651e;
+  padding-bottom: 5px;
+}
+.allFlights {
+  background-color: rgba(220, 212, 212, 0.438);
+  padding: 40px 10%;
+}
+.flightDetails {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+}
+.flightImgContainer img {
+  width: 70px;
+  height: 60px;
+  object-fit: contain;
+}
+.flightMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flightViewDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flightViewDetails button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: #f4651e;
+  font-size: 1.1rem;
+  font-weight: 25px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.noFlights {
+  text-align: center;
+  color: rgba(23, 22, 22, 0.817);
+}
+
+@media screen and (max-width: 1200px) {
+  .allFlights {
+    padding: 40px 5%;
+  }
+  .flightDetails {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+  .allFlights {
+    padding: 40px 4%;
+  }
+  .flightDetails {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .allFlights {
+    padding: 40px 2%;
+  }
+  .flightDetails {
+    width: 95%;
+  }
+  .flightDetails h1 {
+    font-size: 1.4rem;
+  }
+  .flightDetails p {
+    font-size: 0.8rem;
+  }
+  .flightViewDetails button {
+    width: 100px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+  .flightImgContainer img {
+    width: 60px;
+    height: 50px;
+  }
+  .flightViewDetails h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .flightDetails {
+    width: 100%;
+  }
+  .flightImgContainer img {
+    width: 50px;
+    height: 40px;
+  }
+  .flightDetails h1 {
+    font-size: 1.2rem;
+  }
+  .flightDetails p {
+    font-size: 0.8rem;
+  }
+  .flightViewDetails button {
+    width: 90px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+  .flightViewDetails h2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flightImgContainer img {
+    width: 40px;
+    height: 30px;
+  }
+  .flightDetails h1 {
+    font-size: 1.1rem;
+  }
+  .flightDetails p {
+    font-size: 0.7rem;
+  }
+  .flightDetails {
+    padding: 10px 8px;
+  }
+  .flightViewDetails button {
+    width: 70px;
+    height: 25px;
+    font-size: 0.6rem;
+  }
+  .flightViewDetails h2 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .flightImgContainer img {
+    width: 48px;
+    height: 28px;
+  }
+  .flightDetails h1 {
+    font-size: 1rem;
+  }
+  .flightDetails p {
+    font-size: 0.6rem;
+  }
+}

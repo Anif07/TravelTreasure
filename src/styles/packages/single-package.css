@@ -1,0 +1,385 @@
+.singlePackage {
+  width: 92%;
+  padding: 2px;
+  margin: 20px auto;
+  /* box-shadow: 1px 1px 4px black, -1px -1px 4px black; */
+  border-radius: 20px;
+}
+.singlePackImg {
+  width: 100%;
+  height: 400px;
+}
+.singlePackimgDiv {
+  width: inherit;
+  height: inherit;
+  border: 4px solid #f4651e;
+  box-sizing: content-box;
+  border-radius: 20px;
+  position: relative;
+}
+.singlePackimgDiv img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.packDetails {
+  background-color: rgba(30, 29, 29, 0.518);
+  color: rgb(210, 205, 205);
+  text-shadow: 0px 0px 5px black;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.singlePackDetails {
+  padding: 0 40px;
+}
+.packDetails h1 {
+  font-size: 3.5rem;
+}
+.packDetails p {
+  font-size: 1.4rem;
+}
+.packDetails p i {
+  margin-right: 10px;
+}
+.durationContainer {
+  display: flex;
+  padding-left: 30px;
+  margin: 20px 0;
+}
+.Box-in-container {
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Box-in-container i {
+  margin-right: 14px;
+  color: #f4651e;
+  font-size: 1.5rem;
+}
+.packageDescription {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.description h2 {
+  /* margin: 20px 0; */
+  font-size: 2rem;
+}
+.description p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.inclusion-exclusions {
+  display: flex;
+  gap: 50px;
+  /* justify-content: space-between; */
+}
+.inclusion-exclusions-cont h2 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+.included ul {
+  list-style-type: none;
+}
+.included ul li {
+  padding-left: 30px;
+  margin: 6px 0;
+  position: relative;
+}
+.included ul li::before {
+  content: "✅";
+  position: absolute;
+  border-radius: 10px;
+  top: -2px;
+  left: 0;
+}
+.excluded ul {
+  list-style-type: none;
+}
+.excluded ul li {
+  padding-left: 30px;
+  margin: 6px 0;
+  position: relative;
+}
+.excluded ul li::before {
+  content: "❌";
+  position: absolute;
+  border-radius: 10px;
+  top: -2px;
+  left: 0;
+}
+.tourPlan {
+  margin-top: 30px;
+}
+.tourPlan h2 {
+  font-size: 1.8rem;
+}
+.tourPlan li {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+.tourPlan ul {
+  list-style-type: none;
+}
+.tourPlan i {
+  font-size: 1.5rem;
+}
+
+/* Right side booking section */
+.descriptionRight {
+  padding: 10px 20px;
+  height: fit-content;
+  position: sticky;
+  top: 120px;
+  left: 0;
+  width: 320px;
+  box-shadow: 0.5px 0.5px 5px rgb(39, 38, 38), -0.5px -0.5px 5px rgb(56, 55, 55);
+}
+.from {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.from label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.from input {
+  height: 25px;
+  padding: 5px;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.timeLabel {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.time input {
+  height: 25px;
+  padding: 5px;
+}
+.time div {
+  display: flex;
+  align-items: center;
+}
+.time div div {
+  margin-right: 10px;
+}
+.ticketsContainer {
+  margin-bottom: 15px;
+}
+.ticketHeading {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.ticketsContainer div {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+.ticketsContainer h2 {
+  margin-top: 10px;
+}
+.ticketsContainer input {
+  width: 100px;
+}
+.adult,
+.children {
+  display: flex;
+}
+#adults,
+#childrens {
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.adult h3,
+.children h3 {
+  margin-left: 6px;
+}
+.total {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.total span {
+  font-size: 20px;
+  color: #f4651e;
+  font-weight: 600;
+}
+.total span i {
+  margin-right: 5px;
+}
+.bookNowBtnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.bookNowBtn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #f4651e;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+  .singlePackDetails {
+    padding: 0 25px;
+  }
+  .singlePackImg {
+    height: 350px;
+  }
+  .packDetails h1 {
+    font-size: 3rem;
+  }
+  .description h2,
+  .inclusion-exclusions-cont h2,
+  .tourPlan h2 {
+    font-size: 1.7rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+  .tourPlan li {
+    font-size: 1rem;
+  }
+  .descriptionRight h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .singlePackImg {
+    height: 260px;
+  }
+  .packDetails h1 {
+    font-size: 2.5rem;
+  }
+  .packDetails p {
+    font-size: 1.2rem;
+  }
+  .packageDescription {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bookNowBtn {
+    width: 160px;
+    height: 35px;
+    font-size: 1.1rem;
+  }
+  .durationContainer {
+    padding-left: 0;
+  }
+  .Box-in-container {
+    margin: 0 12px;
+  }
+  .Box-in-container h3 {
+    font-size: 1.1rem;
+  }
+  .Box-in-container i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  .from label,
+  .timeLabel {
+    font-size: 1rem;
+  }
+  .adult h3,
+  .children h3 {
+    margin-left: 6px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 568px) {
+  .singlePackImg {
+    height: 230px;
+  }
+  .packDetails h1 {
+    font-size: 1.8rem;
+  }
+  .packDetails p {
+    font-size: 1rem;
+  }
+  .Box-in-container h3,
+  .durationContainer h3 {
+    font-size: 0.9rem;
+  }
+  .Box-in-container {
+    margin: 0 7px;
+  }
+  .durationContainer {
+    flex-wrap: wrap;
+    align-content: 5px;
+    gap: 20px;
+  }
+  .descriptionRight {
+    width: 290px;
+  }
+  .description h2,
+  .inclusion-exclusions-cont h2,
+  .tourPlan h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .singlePackImg {
+    height: 180px;
+  }
+  .packDetails h1 {
+    font-size: 1.5rem;
+  }
+  .packDetails p {
+    font-size: 0.9rem;
+  }
+  .descriptionRight {
+    width: 250px;
+  }
+  .descriptionRight h2 {
+    font-size: 1.2rem;
+  }
+  .ticketHeading {
+    font-size: 1rem;
+  }
+  .bookNowBtnContainer {
+    margin-top: 10px;
+  }
+  .bookNowBtn {
+    width: 130px;
+    height: 32px;
+    font-size: 1rem;
+  }
+  .description h2,
+  .inclusion-exclusions-cont h2,
+  .tourPlan h2 {
+    font-size: 1.4rem;
+  }
+  .inclusion-exclusions {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+}

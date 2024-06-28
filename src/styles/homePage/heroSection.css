@@ -1,0 +1,258 @@
+.HerosSectionContanier {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  transition: transform 2s linear;
+}
+.corouselInner {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  transition: transform 2s linear;
+}
+.slide {
+  display: none;
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide.activeSlide {
+  display: block;
+  opacity: 1;
+  animation: slow 0.5s ease-in-out;
+}
+.slideContent {
+  position: absolute;
+  width: 800px;
+  bottom: 30px;
+  left: 20%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: slow 1.2s linear;
+}
+@keyframes slow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.slideContent h2 {
+  text-shadow: 1px 1px 10px black;
+}
+.bookInHerosection {
+  margin: 10px 0;
+  width: 170px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.bookInHerosection:hover {
+  background-color: #4c3bcf;
+  color: white;
+}
+.heroSecImg {
+  width: 100%;
+  height: 85vh;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  transition: all 2s linear;
+  object-fit: cover;
+}
+.heroSecImg-none {
+  display: none;
+  opacity: 0;
+}
+/* .HeroSectionContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselInner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carouselItem {
+  min-width: 100%;
+  transition: opacity 2s ease-in-out;
+  opacity: 0;
+  display: none;
+}
+
+.carouselItem.active {
+  opacity: 1;
+  display: block;
+}
+
+.heroSecImg {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+} */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(51, 49, 49, 0.349);
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+.arrow:hover {
+  /* background-color: #f4651e; */
+  background-color: rgba(240, 235, 235, 0.605);
+  /* color: white; */
+  transform: scale(1.1), translateY(-50%);
+}
+.leftArrow {
+  left: 10px;
+  z-index: 2;
+}
+.rightArrow {
+  right: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .slideContent {
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* .HerosSectionContanier {
+    width: 85%;
+  } */
+  .slideContent {
+    left: 100px;
+    width: 700px;
+    text-align: center;
+  }
+  .slideContent h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* .HerosSectionContanier {
+    width: 95%;
+  } */
+  .slideContent {
+    left: 120px;
+    width: 550px;
+    text-align: center;
+  }
+  .slideContent h2 {
+    font-size: 1rem;
+  }
+  .arrow {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slideContent {
+    left: 120px;
+    width: 400px;
+    text-align: center;
+  }
+  .slideContent h2 {
+    font-size: 1rem;
+  }
+  .heroSecImg {
+    width: 100%;
+    height: 418px;
+  }
+  .arrow {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slideContent {
+    left: 80px;
+    width: 280px;
+    text-align: center;
+  }
+  .slideContent h2 {
+    font-size: 1rem;
+  }
+  .bookInHerosection {
+    width: 140px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .arrow {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slideContent {
+    left: 80px;
+    width: 240px;
+    text-align: center;
+  }
+  .slideContent h2 {
+    font-size: 1rem;
+  }
+  .bookInHerosection {
+    width: 120px;
+    height: 25px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .arrow {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .slideContent {
+    left: 60px;
+    width: 200px;
+    text-align: center;
+  }
+  .slideContent h2 {
+    font-size: 0.8rem;
+  }
+  .bookInHerosection {
+    width: 100px;
+    height: 25px;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  .heroSecImg {
+    width: 100%;
+    height: 350px;
+  }
+}

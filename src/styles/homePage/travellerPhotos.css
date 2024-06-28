@@ -1,0 +1,38 @@
+.travellerPhotosContainer {
+  padding: 20px 9%;
+}
+.travellerPhotosContainer > div:first-child {
+  display: flex;
+  justify-content: center;
+}
+.travellerPhotosContainer h1 {
+  font-size: 2.8rem;
+  border-bottom: 3px solid rgb(235, 120, 120);
+  padding-bottom: 8px;
+  margin: 20px auto;
+  display: inline-block;
+  text-align: center;
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+  gap: 10px;
+}
+
+.grid-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-wrapper .grid-item:nth-child(3n-2) {
+  grid-column: span 2;
+  grid-row: span 2;
+}

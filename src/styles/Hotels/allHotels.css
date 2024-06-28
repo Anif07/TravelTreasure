@@ -1,0 +1,97 @@
+.AllHotels {
+  padding: 10px 15%;
+}
+.hotel {
+  display: flex;
+  /* justify-content: space-between; */
+  box-shadow: 0 0 5px rgb(36, 35, 35);
+  padding: 10px;
+  /* margin: 20px 30px; */
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.allHotelsHeading-cont {
+  display: flex;
+  justify-content: center;
+}
+.allHotelsHeading {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px 0;
+  border-bottom: 3px solid #050c9c;
+  display: inline-block;
+}
+.hotelSearchBarContainer {
+  background-color: #2276e3;
+  width: 100%;
+  padding: 5px 0;
+}
+.hotel:hover {
+  outline: 3px solid #f4651e;
+}
+.hotelImgCont {
+  width: 230px;
+  height: 180px;
+  margin-right: 10px;
+}
+.hotelImgCont img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.HotelNameCont {
+  width: 400px;
+  margin-left: 20px;
+}
+.HotelNameCont h2 {
+  margin-bottom: 7px;
+  font-size: 1.8rem;
+}
+.stars {
+  font-size: 22px;
+  margin-left: 10px;
+}
+.HotelNameCont > p {
+  margin-bottom: 10px;
+}
+.hotelPriceCont {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+  flex: 1;
+}
+.facilities {
+  margin-top: 15px;
+}
+.cancellation {
+  margin-top: 10px;
+  color: green;
+  font-size: 1.1rem;
+  font-weight: 25px;
+  /* background-color: #ace1af; */
+}
+.check {
+  color: green;
+  padding: 2px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 10px;
+}
+.ratingCont {
+  margin: 10px 0;
+}
+.rating {
+  background-color: #050c9c;
+  color: white;
+  padding: 5px;
+  font-weight: 600;
+}
+.Hotelprice {
+  color: #f4651e;
+  font-weight: 600;
+  font-size: 1.4rem;
+}

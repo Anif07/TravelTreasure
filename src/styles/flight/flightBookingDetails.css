@@ -1,0 +1,347 @@
+.singleFlightDetails {
+  padding: 40px 15%;
+  background-color: rgba(52, 50, 50, 0.113);
+}
+.bookingDetailsContainer {
+  padding: 10px;
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.detailsDiv {
+  width: 600px;
+}
+.fromToDate {
+  margin-bottom: 10px;
+}
+.fromToDate h3 {
+  margin: 10px 0 5px 0;
+}
+.airline {
+  margin-bottom: 4px;
+}
+.flightFromToCont {
+  margin: 0 0 15px 20px;
+  display: flex;
+  /* height: 110px; */
+  padding: 10px;
+  gap: 10px;
+  background-color: rgba(52, 50, 50, 0.113);
+}
+.flightLineFromTo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  border-left: 2px dashed;
+  height: 46px;
+  width: 1px;
+  /* margin-left: 2px; */
+}
+.flightDates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nameAndAirport {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nameAndAirport p,
+.flightDates p {
+  font-size: 1.1rem;
+}
+.fareSummaryContainer {
+  padding: 10px;
+  width: 230px;
+}
+.fareSummaryContainer h2 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 8%,
+    rgba(253, 29, 29, 1) 35%,
+    rgba(252, 176, 69, 1) 96%
+  );
+  background-clip: text;
+  color: transparent;
+  margin: 10px 0;
+  font-size: 1.7rem;
+}
+.fareSummaryContainer p {
+  font-size: 1.1rem;
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.travellerDetails i {
+  margin-right: 8px;
+}
+.travellerDetails h2 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 8%,
+    rgba(253, 29, 29, 1) 35%,
+    rgba(252, 176, 69, 1) 96%
+  );
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 5px;
+}
+.travellersContainer {
+  background-color: white;
+  padding: 20px 20px;
+}
+.contact-details h4 {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.contact-details input {
+  width: 150px;
+  height: 30px;
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+.contact-details p {
+  margin-left: 150px;
+  margin-top: 5px;
+}
+.travellers {
+  margin: 20px 0;
+}
+.travellers h2 {
+  margin-bottom: 10px;
+}
+.travellers h4 {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+.travellers input {
+  width: 150px;
+  height: 30px;
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+.person {
+  margin-bottom: 13px;
+}
+.flightPayment {
+  margin: 30px 0;
+}
+.flightPayment h2 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 8%,
+    rgba(253, 29, 29, 1) 35%,
+    rgba(252, 176, 69, 1) 96%
+  );
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 5px;
+}
+.flightPaymentContainer {
+  background-color: white;
+  padding: 15px;
+}
+.completeMyOrder {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* seats selecting */
+.seatsContainer {
+  background-color: white;
+  padding-bottom: 15px;
+}
+.seatsMainBox {
+  background-color: rgb(127, 214, 255);
+  width: 700px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+.plane {
+  background-color: white;
+  height: fit-content;
+  /* width: 400px; */
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.plane h1 {
+  margin: 100px auto;
+  text-align: center;
+}
+.plane li {
+  list-style-type: none;
+}
+.seatsHeading {
+  margin: 15px 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 8%,
+    rgb(239, 42, 42) 35%,
+    rgb(229, 141, 19) 96%
+  );
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  border-bottom: 2px solid black;
+}
+.seats-for-fromTo {
+  margin: 10px 100px;
+}
+.planeSeats {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+.seatBox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.flightDetailsForSeats {
+  box-shadow: 0 0 5px gray;
+  height: fit-content;
+  padding: 10px;
+  align-self: flex-end;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+.flightDetailsForSeats-box {
+  display: flex;
+  margin: 10px;
+}
+.seatColor1 {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  display: inline-block;
+  border: 1px solid;
+  margin-right: 10px;
+}
+.seatColor2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(197, 21, 251);
+  display: inline-block;
+  border: 1px solid;
+  margin-right: 10px;
+}
+.seat {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selected {
+  background-color: rgb(197, 21, 251);
+  color: white;
+}
+.planeSeats .seat:nth-child(3n + 3) {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .singleFlightDetails {
+    padding: 40px 9%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .singleFlightDetails {
+    padding: 40px 5%;
+  }
+  .detailsDiv {
+    width: 490px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .fareSummaryContainer p {
+    font-size: 1rem;
+  }
+  .nameAndAirport p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .nameAndAirport {
+    gap: 10px;
+  }
+  .line {
+    height: 55px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bookingDetailsContainer {
+    flex-wrap: wrap;
+  }
+  #number {
+    margin: 10px 0 0 150px;
+  }
+  #firstName {
+    margin-right: 100px;
+  }
+  #lastName {
+    margin: 10px 0 0 97px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #firstName {
+    margin-right: 0;
+  }
+  .contact-details p {
+    margin-left: 10px;
+  }
+  #email,
+  #number {
+    width: 120px;
+    font-size: 0.8 rem;
+  }
+  #email {
+    margin: 0;
+  }
+  #number {
+    margin: 10px 0 0 120px;
+  }
+  .fareSummaryContainer h2 {
+    font-size: 1.2rem;
+  }
+  .fromToDate h3 {
+    font-size: 1rem;
+  }
+  .nameAndAirport p {
+    font-size: 0.9rem;
+  }
+  .travellerDetails h2,
+  .flightPayment h2 {
+    font-size: 1.2rem;
+  }
+  .contact-details h4 {
+    font-size: 1rem;
+  }
+  .detailsDiv {
+    width: inherit;
+  }
+}
+@media screen and (max-width: 380px) {
+}

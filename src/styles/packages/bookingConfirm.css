@@ -1,0 +1,23 @@
+.packageBookingConfirm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 500px;
+}
+.packageBookingConfirm p {
+  font-size: 1.2rem;
+}
+.packageBookingConfirm i {
+  color: green;
+}
+.myTripsLink {
+  color: black;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 600;
+}

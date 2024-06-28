@@ -1,0 +1,83 @@
+.loginContainer {
+  display: grid;
+  place-items: center;
+  height: 87vh;
+  background-image: url("https://res.cloudinary.com/dsysrrxod/image/upload/v1719381156/pexels-8moments-1323550_ddy6kg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 5px black;
+  gap: 10px;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.loginContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(10px);
+  z-index: 1;
+}
+
+.login-Input-container {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 2px 10px;
+  width: 260px;
+}
+.loginForm input {
+  padding: 8px;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  background-color: transparent;
+  color: rgb(6, 6, 6);
+}
+.loginForm input::placeholder {
+  color: rgba(39, 38, 38, 0.863);
+}
+.eyeSymbol {
+  cursor: pointer;
+}
+
+.loginBtn {
+  width: 60%;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #e62c0c;
+  color: white;
+  font-weight: 600;
+}
+.guestMode {
+  width: 60%;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #050c9c;
+  color: white;
+  font-weight: 600;
+}
+.registernow {
+  margin-left: 5px;
+  /* text-decoration: underline dashed; */
+  font-weight: 600;
+}

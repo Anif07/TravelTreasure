@@ -1,0 +1,27 @@
+{
+    "images":[
+    {
+        "src":"https://res.cloudinary.com/dsysrrxod/image/upload/v1718641604/tour-and-travel-3_g79pma.jpg",
+        "alt":"Around the world",
+        "quote":"Discover the world with our exclusive travel packages, crafted just for you.",
+        "button":"Explore Packages"
+    },
+    {
+        "src":"https://res.cloudinary.com/dsysrrxod/image/upload/v1718546036/flight_xlfsrw.jpg",
+        "alt":"flights",
+        "quote":"Your adventure begins the moment you book your flight with us.",
+        "button":"Book a Flight"
+    },
+    {
+        "src":"https://res.cloudinary.com/dsysrrxod/image/upload/v1718546351/Hotels_aeh4zp.jpg",
+        "alt":"Hotels",
+        "quote":"Find your home away from home with our luxurious hotel selections.",
+        "button":"Book a Room"
+    }
+],
+"networkErrorImg":[
+    {
+        "src":"public/Assets/images/networkError.png"
+    }
+]
+}

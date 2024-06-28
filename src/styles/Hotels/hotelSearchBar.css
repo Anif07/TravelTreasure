@@ -1,0 +1,133 @@
+.flightSearchContainer {
+  padding: 0 10%;
+  margin: 20px auto;
+}
+.FlightSearchform {
+  background-color: white;
+  display: flex;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding-left: 15px;
+  box-shadow: 1px 1px 3px rgb(37, 37, 37), -1px -1px 3px rgb(39, 38, 38);
+}
+.destination-input-field {
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 120px;
+  padding-left: 5px;
+}
+.checkInCont {
+  width: 150px;
+}
+.checkInCont label,
+.checkOutCont label {
+  cursor: pointer;
+}
+.checkInCont div,
+.checkOutCont div {
+  display: inline-block;
+}
+#checkin,
+#checkOut {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#noOfPersons {
+  width: 50px;
+}
+#flightClass {
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.shiftValues {
+  cursor: pointer;
+}
+.shiftValues i {
+  font-size: 1.2rem;
+}
+#location,
+#noOfPersons,
+#date {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 1rem;
+  padding-left: 4px;
+}
+#noOfPersons {
+  width: 80px;
+}
+#location::placeholder {
+  font-size: 0.9rem;
+  padding-left: 2px;
+}
+.flightSearchIcon {
+  font-size: 1.4rem;
+  color: #f4651e;
+  margin-right: 7px;
+}
+.searchBtn {
+  border: none;
+  height: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #f4651e;
+}
+.searchBtn i {
+  font-size: 16px;
+  margin-right: 8px;
+}
+.searchBtnContainer {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.FlightSearchform div {
+  margin: 0 5px;
+}
+#flightClass {
+  margin-right: 7px;
+}
+.shiftValues {
+  margin: 0 7px;
+}
+
+/* places for hotels */
+.placesForHotelsContainer {
+  padding: 20px 10%;
+}
+.places-heading {
+  margin-bottom: 10px;
+}
+.placesCont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  box-shadow: 0 0 5px gray;
+  padding: 15px;
+}
+.HotelPlace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.HotelPlace img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  object-fit: cover;
+  margin-right: 15px;
+}

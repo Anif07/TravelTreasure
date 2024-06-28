@@ -1,0 +1,90 @@
+.tripsUpperContainer {
+  background-color: #2276e3;
+  color: white;
+  height: 100px;
+  padding: 20px 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+a {
+  color: white;
+}
+.myTripLinks {
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+.linkActive {
+  padding-bottom: 3px;
+  border-bottom: 5px solid #afdf40;
+  border-radius: 10px;
+}
+.tripsLowerContainer {
+  padding: 20px 12%;
+}
+.myPackages {
+  display: flex;
+}
+.mypackageImgContainer {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.mypackageImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.packageContainer {
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  /* cursor: pointer; */
+  box-shadow: 0 0 20px rgb(47, 46, 46);
+  margin-right: 20px;
+}
+.myPackageDetails h3 {
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+.myPackageDetails p {
+  margin: 5px 0;
+}
+.cancelPackage button {
+  border: none;
+  outline: none;
+  color: rgba(192, 29, 29, 0.702);
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  z-index: 200;
+  position: relative;
+}
+.cancelPackage {
+  display: flex;
+  justify-content: end;
+}
+.noBookingPackages {
+  text-align: center;
+}
+.noBookingPackages h2,
+.noBookingPackages p {
+  margin: 10px 0;
+}
+.noBookingPackages button {
+  width: 170px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: #f4651e;
+  font-size: 1.1rem;
+  font-weight: 22px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+.myFlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.myFlightsContainer {
+  padding: 20px;
+  box-shadow: 0 0 5px gray;
+}
+.flightTable {
+  height: 200px;
+  width: 255px;
+}
+.tdBold {
+  font-weight: 600;
+}
