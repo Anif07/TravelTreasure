@@ -21,7 +21,7 @@ function Navbar() {
     <header className="header">
       <nav className="NavBar">
         <div className="navUpperPart">
-          <Link to="/home" className="logoContainer">
+          <Link to="/" className="logoContainer">
             <h1 className="logo">
               <span className="logoLeft">Travel</span>
               <span className="logoRight">Treasure</span>
@@ -35,7 +35,7 @@ function Navbar() {
                 }
                 // activeClassName="active"
                 // className="navLink link"
-                to="/home"
+                to="/"
               >
                 <i className="fa-solid fa-house navLinkIcon"></i>Home
               </NavLink>
