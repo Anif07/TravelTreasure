@@ -40,7 +40,7 @@ function SearchBarFlight() {
       <form className="FlightSearchform" onSubmit={submitHandle}>
         <div>
           <label htmlFor="location">
-            <i className="fa-solid fa-location-dot packSearchIcon"></i>
+            <i className="fa-solid fa-location-dot flightSearchIcon"></i>
           </label>
           <input
             list="origins"
@@ -87,7 +87,7 @@ function SearchBarFlight() {
         </div>
         <div>
           <label htmlFor="date">
-            <i className="fa-solid fa-calendar-days packSearchIcon"></i>
+            <i className="fa-solid fa-calendar-days flightSearchIcon"></i>
           </label>
           <input
             type="date"
@@ -101,7 +101,7 @@ function SearchBarFlight() {
         </div>
         <div>
           <label htmlFor="noOfPersons">
-            <i className="fa-solid fa-user packSearchIcon"></i>
+            <i className="fa-solid fa-user flightSearchIcon"></i>
           </label>
           <input
             type="number"
@@ -123,7 +123,7 @@ function SearchBarFlight() {
           </select>
         </div>
         <div className="searchBtnContainer">
-          <button type="submit" className="searchBtn">
+          <button type="submit" className="FlightsearchBtn">
             <i className="fa-solid fa-magnifying-glass"></i>Search
           </button>
         </div>

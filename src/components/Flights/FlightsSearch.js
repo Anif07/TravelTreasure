@@ -23,7 +23,7 @@ function FlightsSearch() {
 
   return (
     <div>
-      <div className="packageBackgroundImg">
+      <div className="FlightBackgroundImg">
         <img
           src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718861862/pexels-pixabay-358319_l5bbqg.jpg"
           alt="backGround"

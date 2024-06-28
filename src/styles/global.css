@@ -2,4 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* scrollbar-color: #f4651e; */
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4651e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d35400;
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
 }

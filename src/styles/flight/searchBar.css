@@ -1,3 +1,30 @@
+.FlightBackgroundImg {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.FlightBackgroundImg img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.FlightBackgroundImg h1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  /* background-color: rgba(37, 36, 36, 0.507); */
+  background-color: rgba(30, 29, 29, 0.518);
+  opacity: 1;
+  z-index: 2;
+  text-shadow: 0px 0px 20px black;
+  color: rgb(255, 245, 245);
+  font-size: 4.5rem;
+}
 .flightSearchContainer {
   padding: 0 10%;
   margin: 20px auto;
@@ -5,12 +32,12 @@
 .FlightSearchform {
   background-color: white;
   display: flex;
-  padding: 10px 0;
+  gap: 10px;
+  padding: 10px 15px 10px 15px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   border-radius: 15px;
-  padding-left: 15px;
   box-shadow: 1px 1px 3px rgb(37, 37, 37), -1px -1px 3px rgb(39, 38, 38);
 }
 .origin-input-field {
@@ -66,7 +93,7 @@
   color: #f4651e;
   margin-right: 7px;
 }
-.searchBtn {
+.FlightsearchBtn {
   border: none;
   height: none;
   background-color: transparent;
@@ -75,6 +102,8 @@
   font-size: 1rem;
   font-weight: 600;
   background-color: #f4651e;
+  padding: 10px;
+  border-radius: 10px;
 }
 .searchBtn i {
   font-size: 16px;
@@ -86,7 +115,7 @@
   align-items: center;
 }
 .FlightSearchform div {
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 #flightClass {
   margin-right: 7px;
@@ -98,7 +127,7 @@
 /* Popular Flights */
 
 .popularFlightsContainer {
-  padding: 20px 10%;
+  padding: 20px 8%;
 }
 .popularFlightsContainer h1 {
   margin-bottom: 15px;
@@ -128,6 +157,13 @@
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 1400px) {
+  .popularFlightsContainer {
+    padding: 20px 6%;
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .flightSearchContainer {
     padding: 0 5%;
@@ -138,19 +174,78 @@
   .flightSearchContainer {
     padding: 0 2%;
   }
+  .popFlight {
+    width: 260px;
+    height: 280px;
+  }
 }
 @media screen and (max-width: 992px) {
+  .FlightBackgroundImg h1 {
+    font-size: 4rem;
+  }
+  .popFlight {
+    width: 210px;
+    height: 240px;
+  }
 }
 @media screen and (max-width: 768px) {
+  .FlightBackgroundImg h1 {
+    font-size: 3.5rem;
+  }
+  .popFlight {
+    width: 210px;
+    height: 240px;
+  }
+  .popularFlightsContainer h1 {
+    font-size: 1.3rem;
+  }
+  .popFlight h4 {
+    font-size: 1rem;
+  }
+  .popularFlights {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 576px) {
+  .FlightBackgroundImg h1 {
+    font-size: 3rem;
+  }
+  .popFlight {
+    width: 200px;
+    height: 230px;
+  }
+  .popularFlights {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 480px) {
   #origin,
   #destination {
-    width: 80px;
+    width: 90px;
     font-size: 0.8rem;
+  }
+  .FlightBackgroundImg h1 {
+    font-size: 2.5rem;
+  }
+  .popFlight {
+    width: 150px;
+    height: 180px;
+  }
+  .popFlight h4 {
+    font-size: 0.9rem;
+  }
+  .popularFlights {
+    justify-content: center;
   }
 }
 @media screen and (max-width: 380px) {
+  .searchBtn {
+    font-size: 0.8rem;
+  }
+  .searchBtn i {
+    font-size: 14px;
+  }
+  .FlightBackgroundImg h1 {
+    font-size: 2rem;
+  }
 }
