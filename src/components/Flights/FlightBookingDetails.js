@@ -67,7 +67,9 @@ function FlightBookingDetails() {
 
     if (selected) {
       dispatch(decrementSelectedSeats());
-      dispatch(decrementPersons());
+      if (persons > 1) {
+        dispatch(decrementPersons());
+      }
       dispatch(removeSeatId(id));
     } else {
       dispatch(incrementSelectedSeats());
