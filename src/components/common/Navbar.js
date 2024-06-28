@@ -35,7 +35,7 @@ function Navbar() {
                 }
                 // activeClassName="active"
                 // className="navLink link"
-                to="/TravelTreasure"
+                to="/home"
               >
                 <i className="fa-solid fa-house navLinkIcon"></i>Home
               </NavLink>
