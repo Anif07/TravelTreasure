@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Route, Routes } from "react-router";
 import Navbar from "./components/common/Navbar";
 import "./styles/global.css";
+import Loading from "./components/common/Loading";
 
 // Lazy-loaded components
 const HomePage = React.lazy(() => import("./pages/HomePage"));
@@ -44,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/packages" element={<Packages />} />
