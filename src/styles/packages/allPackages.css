@@ -197,16 +197,22 @@
   .packageHeading {
     font-size: 1.5rem;
   }
+  .packages {
+    gap: 12px;
+  }
   .Package {
-    width: 180px;
+    width: 170px;
     padding: 5px;
     border-radius: 5px;
-    gap: 10px;
+    gap: 8px;
     margin: 0;
   }
   .package-name-cont h2 {
     margin-bottom: 4px;
     font-size: 1rem;
+  }
+  .packImg-Container img {
+    height: 150px;
   }
   .package-name-cont p {
     margin-bottom: 6px;
@@ -228,6 +234,22 @@
 }
 @media screen and (max-width: 380px) {
   .packages {
-    justify-content: center;
+    gap: 12px;
+  }
+  .Package {
+    width: 155px;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 8px;
+    margin: 0;
+  }
+  .packImg-Container img {
+    height: 140px;
+  }
+  .package-name-cont h2 {
+    font-size: 0.9rem;
+  }
+  .package-name-cont p {
+    font-size: 0.6rem;
   }
 }

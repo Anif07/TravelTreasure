@@ -8,6 +8,7 @@ import {
   startAutoSlide,
   stopAutoSlide,
 } from "../../redux/slices/heroSectionSlice";
+import { Link } from "react-router-dom";
 
 const slideInterval = 3000;
 function HeroSection() {
@@ -52,7 +53,9 @@ function HeroSection() {
             {slide === index && (
               <div className="slideContent">
                 <h2>{obj.quote}</h2>
-                <button className="bookInHerosection">{obj.button}</button>
+                <Link to={obj.buttonUrl}>
+                  <button className="bookInHerosection">{obj.button}</button>
+                </Link>
               </div>
             )}
           </div>

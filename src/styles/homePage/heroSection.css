@@ -28,7 +28,7 @@
   position: absolute;
   width: 800px;
   bottom: 30px;
-  left: 20%;
+  left: 25%;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 .bookInHerosection:hover {
-  background-color: #4c3bcf;
+  background-color: #3b8fcf;
   color: white;
 }
 .heroSecImg {
@@ -138,7 +138,7 @@
 
 @media screen and (max-width: 1400px) {
   .slideContent {
-    left: 100px;
+    left: 22%;
   }
 }
 
@@ -147,7 +147,7 @@
     width: 85%;
   } */
   .slideContent {
-    left: 100px;
+    left: 19%;
     width: 700px;
     text-align: center;
   }
@@ -161,7 +161,7 @@
     width: 95%;
   } */
   .slideContent {
-    left: 120px;
+    left: 16%;
     width: 550px;
     text-align: center;
   }
@@ -176,7 +176,7 @@
 
 @media screen and (max-width: 768px) {
   .slideContent {
-    left: 120px;
+    left: 15%;
     width: 400px;
     text-align: center;
   }
@@ -191,11 +191,19 @@
     width: 30px;
     height: 30px;
   }
+  .bookInHerosection {
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .HerosSectionContanier {
+    width: 100%;
+  }
   .slideContent {
-    left: 80px;
+    left: 20%;
     width: 280px;
     text-align: center;
   }
@@ -205,7 +213,7 @@
   .bookInHerosection {
     width: 140px;
     height: 30px;
-    font-size: 0.9rem;
+    font-size: 12px;
     font-weight: 600;
   }
   .arrow {
@@ -218,7 +226,7 @@
 @media screen and (max-width: 450px) {
   .slideContent {
     left: 80px;
-    width: 240px;
+    width: 230px;
     text-align: center;
   }
   .slideContent h2 {
@@ -227,7 +235,7 @@
   .bookInHerosection {
     width: 120px;
     height: 25px;
-    font-size: 0.7rem;
+    font-size: 12px;
     font-weight: 600;
   }
   .arrow {
@@ -238,7 +246,7 @@
 }
 @media screen and (max-width: 360px) {
   .slideContent {
-    left: 60px;
+    left: 20%;
     width: 200px;
     text-align: center;
   }

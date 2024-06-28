@@ -64,7 +64,13 @@ function PackageSearch() {
             <label htmlFor="date">
               <i className="fa-solid fa-calendar-days packSearchIcon"></i>
             </label>
-            <input type="date" id="date" name="date" min={today} />
+            <input
+              type="date"
+              id="date"
+              name="date"
+              min={today}
+              value={today}
+            />
           </div>
           <div>
             <label htmlFor="noOfPersons">
