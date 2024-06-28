@@ -28,7 +28,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/home" element={<HomePage />} />
+        {/* <Route path="/home" element={<HomePage />} /> */}
         <Route path="/packages" element={<Packages />} />
         <Route path="/SinglePackage" element={<SinglePackage />} />
         <Route path="/packageBilling" element={<PackageBilling />} />
