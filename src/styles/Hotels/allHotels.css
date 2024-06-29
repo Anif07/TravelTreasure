@@ -89,9 +89,207 @@
   color: white;
   padding: 5px;
   font-weight: 600;
+  border-radius: 6px;
 }
 .Hotelprice {
   color: #f4651e;
   font-weight: 600;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .AllHotels {
+    padding: 10px 10%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .AllHotels {
+    padding: 10px 7%;
+  }
+  .hotel {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 992px) {
+  .AllHotels {
+    padding: 10px 5%;
+  }
+  .hotel {
+    width: 100%;
+  }
+  .hotelImgCont {
+    width: 180px;
+    height: 150px;
+    margin-right: 0;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 786px) {
+  .allHotelsHeading {
+    font-size: 2rem;
+  }
+  .AllHotels {
+    padding: 10px 3%;
+  }
+  .hotel {
+    width: 100%;
+    padding: 8px;
+  }
+  .hotelImgCont {
+    width: 130px;
+    height: 110px;
+    margin-right: 0;
+    align-self: center;
+  }
+  .HotelNameCont h2 {
+    font-size: 1.5rem;
+  }
+  .facilities p {
+    font-size: 0.9rem;
+  }
+  .Hotelprice {
+    font-size: 1.2rem;
+  }
+  .HotelNameCont {
+    margin-left: 10px;
+    width: 300px;
+  }
+  .cancellation {
+    font-size: 0.9rem;
+  }
+  .rating {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hotelImgCont {
+    width: 110px;
+    height: 100px;
+    margin-right: 0;
+    align-self: center;
+  }
+  .HotelNameCont h2 {
+    font-size: 1.2rem;
+  }
+  .hotelName + p {
+    font-size: 0.9rem;
+  }
+  .facilities {
+    margin-top: 5px;
+  }
+  .facilities p {
+    font-size: 0.9rem;
+  }
+  .Hotelprice {
+    font-size: 1rem;
+  }
+  .Hotelprice + p {
+    font-size: 0.75rem;
+  }
+  .HotelNameCont {
+    margin-left: 10px;
+    width: 245px;
+    margin-right: 10px;
+  }
+  .cancellation {
+    font-size: 0.9rem;
+  }
+  .rating {
+    font-size: 0.8rem;
+    margin-left: 30px;
+    margin-top: 4px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hotelImgCont {
+    width: 110px;
+    height: 120px;
+    margin-right: 0;
+    align-self: center;
+  }
+  .HotelNameCont h2 {
+    font-size: 1rem;
+  }
+  .hotelName + p {
+    font-size: 0.8rem;
+  }
+  .facilities {
+    margin-top: 5px;
+  }
+  .facilities p {
+    font-size: 0.8rem;
+  }
+  .Hotelprice {
+    font-size: 0.9rem;
+  }
+  .Hotelprice + p {
+    font-size: 0.75rem;
+  }
+  .HotelNameCont {
+    margin-left: 10px;
+    width: 245px;
+    margin-right: 10px;
+  }
+  .cancellation {
+    font-size: 0.9rem;
+  }
+  .ratingCont {
+    font-size: 0.9rem;
+  }
+  .rating {
+    font-size: 0.7rem;
+    margin-left: 30px;
+    margin-top: 4px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hotelImgCont {
+    width: 110px;
+    height: 120px;
+    margin-right: 0;
+    align-self: center;
+  }
+  .HotelNameCont h2 {
+    font-size: 0.9rem;
+  }
+  .hotelName + p {
+    font-size: 0.7rem;
+  }
+  .facilities {
+    margin-top: 5px;
+  }
+  .facilities p {
+    font-size: 0.7rem;
+  }
+  .Hotelprice {
+    font-size: 0.9rem;
+  }
+  .Hotelprice + p {
+    font-size: 0.75rem;
+  }
+  .HotelNameCont {
+    margin-left: 10px;
+    width: 220px;
+    margin-right: 10px;
+  }
+  .cancellation {
+    font-size: 0.7rem;
+    margin-top: 7px;
+  }
+  .ratingCont {
+    font-size: 0.9rem;
+  }
+  .rating {
+    font-size: 0.7rem;
+    margin-left: 30px;
+    margin-top: 4px;
+    display: inline-block;
+  }
+  .check {
+    font-size: 8px;
+  }
 }
