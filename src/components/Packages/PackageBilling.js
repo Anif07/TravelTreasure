@@ -171,15 +171,20 @@ function PackageBilling() {
             />
             <input
               type="text"
-              id="lastName"
+              id="lastNameinPackage"
               name="lastName"
               placeholder="Last Name"
             />
-            <input type="email" id="email" placeholder="Email" required />
+            <input
+              type="email"
+              id="emailforPackage"
+              placeholder="Email"
+              required
+            />
             <input type="email" id="confirmEmail" placeholder="Confirm Email" />
             <input
               type="text"
-              id="number"
+              id="numberforPackage"
               placeholder="Phone Number"
               required
             />

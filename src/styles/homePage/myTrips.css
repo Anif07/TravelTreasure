@@ -88,3 +88,114 @@ a {
   cursor: pointer;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 992px) {
+  .tripsLowerContainer {
+    padding: 20px 7%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .tripsUpperContainer {
+    padding: 20px 8%;
+  }
+  .packageContainer {
+    width: 200px;
+    height: 230px;
+  }
+  .mypackageImgContainer {
+    height: 100px;
+  }
+  .myPackageDetails p {
+    margin: 3px 0;
+    font-size: 0.9rem;
+  }
+  .myPackageDetails span {
+    font-size: 0.9rem;
+  }
+  .tripsLowerContainer {
+    padding: 20px 4%;
+  }
+  .myFlightsContainer {
+    padding: 10px;
+  }
+  .flightTable {
+    width: 220px;
+    height: 180px;
+  }
+  .flightTable td {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tripsUpperContainer {
+    padding: 20px 5%;
+  }
+  .myTripLinks {
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  .packageContainer {
+    width: 170px;
+    height: 220px;
+    padding: 7px;
+  }
+  .mypackageImgContainer {
+    height: 90px;
+    margin-bottom: 6px;
+  }
+  .myPackageDetails {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+  }
+  .myPackageDetails p {
+    margin: 3px 0;
+    font-size: 0.9rem;
+  }
+  .myPackageDetails span {
+    font-size: 0.9rem;
+  }
+  .tripsLowerContainer {
+    padding: 20px 8%;
+  }
+  .cancelPackage {
+    justify-self: flex-end;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tripsUpperContainer {
+    padding: 20px 0 0 5%;
+  }
+  .myTripLinks {
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+  .linkActive {
+    border-bottom: 3px solid #afdf40;
+  }
+  .packageContainer {
+    width: 160px;
+    height: 200px;
+    padding: 7px;
+  }
+  .mypackageImgContainer {
+    height: 80px;
+    margin-bottom: 6px;
+  }
+  .myPackageDetails h3 {
+    font-size: 0.9rem;
+  }
+  .myPackageDetails p {
+    margin: 3px 0;
+    font-size: 0.8rem;
+  }
+  .myPackageDetails span {
+    font-size: 0.8rem;
+  }
+  .tripsLowerContainer {
+    padding: 20px 6%;
+  }
+  .cancelPackage button {
+    font-size: 0.8rem;
+  }
+}

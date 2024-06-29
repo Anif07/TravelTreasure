@@ -106,7 +106,9 @@
   color: white;
   cursor: pointer;
 }
+/* .lastNameinPackage{
 
+} */
 @media screen and (max-width: 1200px) {
   .packageBillingContainer {
     padding: 2% 6%;

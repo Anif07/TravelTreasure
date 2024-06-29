@@ -15,9 +15,61 @@
 .myTripsLink {
   color: black;
   border: 1px solid green;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
   background-color: cornflowerblue;
   color: white;
   font-weight: 600;
+}
+
+@media screen and (max-width: 786px) {
+  .packageBookingConfirm {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .packageBookingConfirm {
+    height: 400px;
+  }
+  .packageBookingConfirm h1 {
+    font-size: 1.5rem;
+  }
+  .packageBookingConfirm p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .packageBookingConfirm {
+    height: 300px;
+  }
+  .packageBookingConfirm h1 {
+    font-size: 1.3rem;
+  }
+  .packageBookingConfirm p {
+    font-size: 0.9rem;
+  }
+  .myTripsLink {
+    padding: 6px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .packageBookingConfirm {
+    height: 300px;
+  }
+  .packageBookingConfirm h1 {
+    font-size: 1.2rem;
+  }
+  .packageBookingConfirm p {
+    font-size: 0.8rem;
+  }
+  .myTripsLink {
+    padding: 6px;
+    font-size: 0.9rem;
+  }
 }
