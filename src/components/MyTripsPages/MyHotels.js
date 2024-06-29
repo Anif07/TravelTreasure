@@ -57,7 +57,7 @@ function MyHotels() {
             className="mypackageImgContainer"
             onClick={() => checkingHotelAgain(obj.id)}
           >
-            <img src={obj?.img} alt="my pack" />
+            <img src={obj?.image} alt="my pack" />
           </div>
           <div className="myPackageDetails">
             <h3>{obj?.name}</h3>

@@ -33,9 +33,9 @@ function HotelBilling() {
       location: `${singleHotel[0]?.city},${singleHotel[0]?.location}`,
       price: singleHotel[0]?.price,
       id: singleHotel[0]?.id,
+      image: singleHotel[0]?.photos[0],
     };
     dispatch(postHotel(data));
-
     navigate("/HotelBookingConfirm");
   };
 
@@ -145,15 +145,20 @@ function HotelBilling() {
             />
             <input
               type="text"
-              id="lastName"
+              id="lastNameforHotelBook"
               name="lastName"
               placeholder="Last Name"
             />
-            <input type="email" id="email" placeholder="Email" required />
+            <input
+              type="email"
+              id="emailforHotelBook"
+              placeholder="Email"
+              required
+            />
             <input type="email" id="confirmEmail" placeholder="Confirm Email" />
             <input
               type="text"
-              id="number"
+              id="numberforHotelBook"
               placeholder="Phone Number"
               required
             />
