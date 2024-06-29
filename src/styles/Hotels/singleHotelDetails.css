@@ -11,28 +11,34 @@
 }
 .singleHotelImgContainer {
   display: grid;
-  grid-template-columns: 500px 1fr;
+  grid-template-columns: 500px 2fr;
+  grid-template-rows: 300px 2fr;
   width: 100%;
   gap: 20px;
   margin-bottom: 15px;
 }
+
 .singleHotelImgContainer img {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
+
 .singleHotelImgContainer > img:first-child {
   grid-row: span 2;
-  height: 500px;
+  height: inherit;
 }
+
 .singleHotelImgContainer img:nth-child(2),
 .singleHotelImgContainer img:nth-child(3) {
-  height: 240px;
+  height: 100%;
 }
+
 .singleHotelLeft > h1:first-child {
   font-size: 2.8rem;
   color: rgba(0, 0, 0, 0.854);
 }
+
 .singleHotelLeft > p {
   margin-bottom: 10px;
 }
@@ -86,4 +92,135 @@
   color: white;
   cursor: pointer;
   margin: 20px auto 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .singleHotelImgContainer {
+    grid-template-columns: 400px 1fr;
+  }
+  /* .singleHotelImgContainer > img:first-child {
+    height: 400px;
+  } */
+  .singleHotelImgContainer img:nth-child(2),
+  .singleHotelImgContainer img:nth-child(3) {
+    /* height: 180px; */
+    min-width: 240px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .singleHotelContainer {
+    width: 95%;
+  }
+  .singleHotelImgContainer {
+    grid-template-rows: 200px 1fr;
+  }
+  .singleHotelImgContainer > img:first-child {
+    height: 370px;
+  }
+  .singleHotelImgContainer img:nth-child(2),
+  .singleHotelImgContainer img:nth-child(3) {
+    min-width: 240px;
+    /* height: 150px; */
+  }
+}
+@media screen and (max-width: 992px) {
+  .singleHotelContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .singleHotelLeft {
+    width: 100%;
+  }
+  .singleHotelContainer {
+    width: 95%;
+  }
+  .singleHotelImgContainer {
+    grid-template-rows: 180px 1fr;
+  }
+  .singleHotelImgContainer > img:first-child {
+    height: 380px;
+  }
+  .singleHotelImgContainer img:nth-child(2),
+  .singleHotelImgContainer img:nth-child(3) {
+    min-width: 240px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .singleHotelImgContainer {
+    grid-template-rows: 180px 1fr;
+    grid-template-columns: 320px 2fr;
+  }
+  .singleHotelLeft > h1:first-child {
+    font-size: 2rem;
+  }
+  .singleHotelImgContainer > img:first-child {
+    height: 100%;
+    width: 100%;
+    min-width: 250px;
+  }
+  .singleHotelImgContainer img:nth-child(2),
+  .singleHotelImgContainer img:nth-child(3) {
+    min-width: 150px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .singleHotelImgContainer {
+    gap: 8px;
+  }
+  .singleHotelLeft > h1:first-child {
+    font-size: 1.7rem;
+  }
+  .singleHotelImgContainer {
+    grid-template-rows: 180px 1fr;
+    grid-template-columns: 250px 2fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  .singleHotelContainer {
+    width: 100%;
+  }
+  .singleHotelLeft > h1:first-child {
+    font-size: 1.4rem;
+  }
+  .singleHotelImgContainer {
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 230px 2fr;
+  }
+  .singleHotelImgContainer > img:first-child {
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+  }
+  .singleHotelImgContainer img:nth-child(2),
+  .singleHotelImgContainer img:nth-child(3) {
+    min-width: 100px;
+    height: 100%;
+  }
+  .description h1,
+  .description h2 {
+    font-size: 1.4rem;
+  }
+  .singleHotelRight button {
+    width: 180px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .singleHotelImgContainer {
+    grid-template-rows: 130px 1fr;
+    grid-template-columns: 180px 2fr;
+  }
+  .singleHotelImgContainer > img:first-child {
+    height: 100%;
+    width: 100%;
+    min-width: 150px;
+  }
+  .singleHotelImgContainer img:nth-child(2),
+  .singleHotelImgContainer img:nth-child(3) {
+    min-width: 70px;
+    height: 100%;
+  }
 }
