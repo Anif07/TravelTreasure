@@ -55,8 +55,8 @@ function HotelSearchBar() {
     }
   };
   return (
-    <div className="flightSearchContainer">
-      <form className="form" onSubmit={submitHandle}>
+    <div className="HotelSearchContainer">
+      <form className="HotelForm" onSubmit={submitHandle}>
         <div>
           <label htmlFor="location">
             <i className="fa-solid fa-location-dot packSearchIcon"></i>
@@ -137,8 +137,8 @@ function HotelSearchBar() {
             onChange={(e) => dispatch(setPersons(e.target.value))}
           />
         </div>
-        <div className="searchBtnContainer">
-          <button type="submit" className="searchBtn">
+        <div className="HotelsearchBtnContainer">
+          <button type="submit" className="HotelsearchBtn">
             <i className="fa-solid fa-magnifying-glass"></i>Search
           </button>
         </div>

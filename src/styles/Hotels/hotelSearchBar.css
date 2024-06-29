@@ -1,18 +1,18 @@
-/* .flightSearchContainer {
+.HotelSearchContainer {
   padding: 0 10%;
   margin: 20px auto;
-} */
-/* .FlightSearchform {
+}
+.HotelForm {
   background-color: white;
   display: flex;
-  padding: 10px 0;
+  padding: 10px 15px;
   flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
   justify-content: space-between;
   border-radius: 15px;
-  padding-left: 15px;
   box-shadow: 1px 1px 3px rgb(37, 37, 37), -1px -1px 3px rgb(39, 38, 38);
-} */
+}
 .destination-input-field {
   height: 40px;
   border: none;
@@ -48,21 +48,24 @@
   font-size: 0.9rem;
   padding-left: 2px;
 }
-.searchBtn {
+.HotelsearchBtn {
   border: none;
   height: none;
   background-color: transparent;
+
+  padding: 10px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
   background-color: #f4651e;
 }
-.searchBtn i {
+.HotelsearchBtn i {
   font-size: 16px;
   margin-right: 8px;
 }
-.searchBtnContainer {
+.HotelsearchBtnContainer {
   height: inherit;
   display: flex;
   align-items: center;
@@ -98,4 +101,138 @@
   border-radius: 40px;
   object-fit: cover;
   margin-right: 15px;
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 992px) {
+  .HotelSearchContainer {
+    padding: 0 5%;
+  }
+
+  .placesForHotelsContainer {
+    padding: 20px 6%;
+  }
+  .HotelPlace {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .placesForHotelsContainer {
+    padding: 20px 4%;
+  }
+  .placesCont {
+    justify-content: center;
+    gap: 15px;
+  }
+  .HotelPlace {
+    width: 240px;
+    margin: 5px 0;
+  }
+  .HotelPlace img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .HotelPlace h3 {
+    font-size: 1.1rem;
+  }
+  .HotelPlace p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .placesForHotelsContainer {
+    padding: 20px 2%;
+  }
+  .placesCont {
+    justify-content: center;
+    gap: 10px;
+  }
+  .HotelPlace {
+    width: 200px;
+    margin: 5px 0;
+  }
+  .HotelPlace img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .HotelPlace h3 {
+    font-size: 1rem;
+  }
+  .HotelPlace p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .checkInCont strong,
+  .checkOutCont strong {
+    font-size: 0.9rem;
+  }
+  .HotelsearchBtn {
+    font-size: 0.9rem;
+  }
+  .HotelsearchBtn i {
+    font-size: 0.9rem;
+  }
+  .HotelForm i {
+    font-size: 1.2rem;
+  }
+  .HotelPlace {
+    width: 150px;
+    margin: 5px 0;
+  }
+  .HotelPlace img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .HotelPlace h3 {
+    font-size: 0.9rem;
+  }
+  .HotelPlace p {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .destination-input-field {
+    font-size: 0.9rem;
+    width: 100px;
+    height: 35px;
+  }
+  .checkInCont strong,
+  .checkOutCont strong {
+    font-size: 0.8rem;
+  }
+  .HotelsearchBtn {
+    font-size: 0.8rem;
+  }
+
+  .HotelForm i {
+    font-size: 1.1rem;
+  }
+  .HotelsearchBtn i {
+    font-size: 0.8rem;
+  }
+  .HotelPlace {
+    width: 140px;
+    margin: 5px 0;
+  }
+  .HotelPlace img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .HotelPlace h3 {
+    font-size: 0.85rem;
+  }
+  .HotelPlace p {
+    font-size: 0.68rem;
+  }
 }
