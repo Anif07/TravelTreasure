@@ -7,6 +7,7 @@ import {
 import { useLocation, useNavigate } from "react-router";
 import Loading from "../common/Loading";
 import NetworkError from "../common/NetworkError";
+import "../../styles/Hotels/hotelBilling.css";
 
 function HotelBilling() {
   const { singleHotel, singleHotelStatus, checkIn, checkOut, persons } =
