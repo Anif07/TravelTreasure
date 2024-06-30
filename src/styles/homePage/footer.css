@@ -38,7 +38,9 @@
   margin: 5px 0;
 }
 .all-links-footer a:hover {
-  color: #83b4ff;
+  color: #1b6be3;
+  /* background-color: rgb(134, 229, 229); */
+  border-radius: 50px;
   transform: scale(1.2);
 }
 .contactUs p {

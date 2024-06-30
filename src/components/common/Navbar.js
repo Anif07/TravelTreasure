@@ -48,7 +48,6 @@ function Navbar() {
                 }
               >
                 <span>
-                  {" "}
                   <i className="fa-solid fa-person-walking-luggage navLinkIcon"></i>
                   Packages
                 </span>
@@ -61,11 +60,10 @@ function Navbar() {
                   isActive ? "active link" : "link"
                 }
               >
-                <spn>
-                  {" "}
+                <span>
                   <i className="fa-solid fa-plane-departure navLinkIcon"></i>
                   Flights
-                </spn>
+                </span>
               </NavLink>
             </li>
             <li>

@@ -19,11 +19,11 @@ function Footer() {
             <h2>Quick links</h2>
           </div>
           <div className="all-links-footer">
-            <Link>Home</Link>
-            <Link>Packages</Link>
-            <Link>Flights</Link>
-            <Link>Hotels</Link>
-            <Link>Bolgs</Link>
+            <Link to="/">Home</Link>
+            <Link to="/packages">Packages</Link>
+            <Link to="/Flights">Flights</Link>
+            <Link to="/Hotels">Hotels</Link>
+            {/* <Link>Bolgs</Link> */}
           </div>
         </div>
         <div className="contactUs">
@@ -42,7 +42,7 @@ function Footer() {
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/Anif07" target="blank">
+          <a target="blank">
             <i className="fa-brands fa-github"></i>
           </a>
           <a href="https://www.instagram.com/anif034/" target="blank">
