@@ -35,7 +35,9 @@ function Navbar() {
                   isActive ? "active link" : "link"
                 }
               >
-                <i className="fa-solid fa-house navLinkIcon"></i>Home
+                <span>
+                  <i className="fa-solid fa-house navLinkIcon"></i>Home
+                </span>
               </NavLink>
             </li>
             <li>
@@ -45,8 +47,11 @@ function Navbar() {
                   isActive ? "active link" : "link"
                 }
               >
-                <i className="fa-solid fa-person-walking-luggage navLinkIcon"></i>
-                Packages
+                <span>
+                  {" "}
+                  <i className="fa-solid fa-person-walking-luggage navLinkIcon"></i>
+                  Packages
+                </span>
               </NavLink>
             </li>
             <li>
@@ -56,8 +61,11 @@ function Navbar() {
                   isActive ? "active link" : "link"
                 }
               >
-                <i className="fa-solid fa-plane-departure navLinkIcon"></i>
-                Flights
+                <spn>
+                  {" "}
+                  <i className="fa-solid fa-plane-departure navLinkIcon"></i>
+                  Flights
+                </spn>
               </NavLink>
             </li>
             <li>
@@ -67,7 +75,9 @@ function Navbar() {
                   isActive ? "active link" : "link"
                 }
               >
-                <i className="fa-solid fa-hotel navLinkIcon"></i>Hotels
+                <span>
+                  <i className="fa-solid fa-hotel navLinkIcon"></i>Hotels
+                </span>
               </NavLink>
             </li>
             {/* <li>
@@ -82,7 +92,10 @@ function Navbar() {
                   isActive ? "active link" : "link"
                 }
               >
-                <i className="fa-solid fa-suitcase navLinkIcon"></i>My Trips
+                <span>
+                  {" "}
+                  <i className="fa-solid fa-suitcase navLinkIcon"></i>My Trips
+                </span>
               </NavLink>
             </li>
             <li className="Acctoun-cont">
