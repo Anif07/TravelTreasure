@@ -11,6 +11,7 @@
 .homePackageImgContainer {
   width: 100%;
   height: 280px;
+  /* min-width: 600px; */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,6 +20,10 @@
   cursor: pointer;
   position: relative;
 }
+/* .homePackageImgContainer:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+} */
 .location {
   position: absolute;
   top: 0;
@@ -91,6 +96,7 @@
   .homePackageImgContainer {
     height: 180px;
   }
+
   .homePackageImgContainer h2 {
     font-size: 1rem;
   }
