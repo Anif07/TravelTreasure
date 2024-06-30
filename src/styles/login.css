@@ -81,3 +81,18 @@
   /* text-decoration: underline dashed; */
   font-weight: 600;
 }
+
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 380px) {
+}

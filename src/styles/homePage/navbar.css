@@ -115,7 +115,7 @@ a {
 }
 @media screen and (max-width: 1400px) {
   .NavBar {
-    padding: 0 4%;
+    padding: 0 2%;
   }
   .linksContainer li {
     margin-right: 14px;

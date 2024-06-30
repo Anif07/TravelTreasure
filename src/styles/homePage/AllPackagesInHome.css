@@ -24,6 +24,7 @@
   transform: scale(1.1);
   overflow: hidden;
 } */
+
 .location {
   position: absolute;
   top: 0;
@@ -41,6 +42,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.homePackageImgContainer img:hover {
+  transform: scale(1.2);
+  /* object-fit: contain; */
 }
 .grid1 {
   display: grid;
