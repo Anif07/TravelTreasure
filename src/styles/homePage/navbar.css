@@ -52,7 +52,7 @@ a {
 .link {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   padding: 10px 10px;
 }
@@ -119,7 +119,17 @@ a {
 }
 @media screen and (max-width: 1400px) {
   .NavBar {
-    padding: 0 6%;
+    padding: 0 4%;
+  }
+  .linksContainer li {
+    margin-right: 14px;
+  }
+  .linksContainer a {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .link {
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -130,7 +140,7 @@ a {
     font-size: 33px;
   }
   .linksContainer li {
-    margin-right: 15px;
+    margin-right: 13px;
   }
   .linksContainer a {
     font-size: 17px;
