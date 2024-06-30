@@ -91,7 +91,6 @@ function Navbar() {
                 }
               >
                 <span>
-                  {" "}
                   <i className="fa-solid fa-suitcase navLinkIcon"></i>My Trips
                 </span>
               </NavLink>

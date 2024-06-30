@@ -13,11 +13,22 @@ a {
 .myTripLinks {
   font-size: 1.2rem;
   margin-right: 50px;
+  padding: 3px 6px;
 }
+
 .linkActive {
-  padding-bottom: 3px;
-  border-bottom: 5px solid #afdf40;
+  padding: 3px 6px;
+  border: 2px solid #afdf40;
   border-radius: 10px;
+  background-color: #f5ee6d;
+  color: black;
+}
+.myTripLinks:hover {
+  /* background-color: #f67e42;
+  
+  color: black; */
+  border-radius: 10px;
+  background-color: #3fa2f6;
 }
 .tripsLowerContainer {
   padding: 20px 12%;
@@ -125,6 +136,9 @@ a {
   .flightTable td {
     font-size: 0.9rem;
   }
+  .myTripLinks {
+    margin-right: 30px;
+  }
 }
 @media screen and (max-width: 576px) {
   .tripsUpperContainer {
@@ -160,6 +174,19 @@ a {
   }
   .cancelPackage {
     justify-self: flex-end;
+  }
+  .noBookingPackages h2 {
+    font-size: 1.4rem;
+  }
+  .noBookingPackages p {
+    font-size: 0.9rem;
+  }
+  .noBookingPackages button {
+    width: 150px;
+    font-size: 1rem;
+  }
+  .linkActive {
+    padding: 3px 3px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -197,5 +224,18 @@ a {
   }
   .cancelPackage button {
     font-size: 0.8rem;
+  }
+  .noBookingPackages h2 {
+    font-size: 1.2rem;
+  }
+  .noBookingPackages p {
+    font-size: 0.8rem;
+  }
+  .noBookingPackages button {
+    width: 120px;
+    font-size: 0.8rem;
+  }
+  .noBookingPackages button {
+    height: 30px;
   }
 }
