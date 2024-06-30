@@ -143,6 +143,9 @@ a {
     font-weight: 600;
     padding: 7px 7px;
   }
+  .linksContainer a i {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -182,7 +185,7 @@ a {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 786px) {
   .NavBar {
     padding: 0 4%;
   }
