@@ -49,7 +49,8 @@ function AllPackagesInHome() {
             >
               <img
                 id="homePackImg"
-                src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718694349/pexels-sudipta-1603650_jotcs6.jpg"
+                // src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718694349/pexels-sudipta-1603650_jotcs6.jpg"
+                src="/Assets/images/home_page_india_destinations/delhi.jpg"
                 alt="package"
               />
               <h2 className="location">New Delhi</h2>
@@ -61,7 +62,8 @@ function AllPackagesInHome() {
               }}
             >
               <img
-                src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718782385/madurai_zum7q6.jpg"
+                // src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718782385/madurai_zum7q6.jpg"
+                src="/Assets/images/home_page_india_destinations/madurai.jpg"
                 alt="package"
               />
               <h2 className="location">Madurai</h2>
@@ -75,7 +77,8 @@ function AllPackagesInHome() {
               }}
             >
               <img
-                src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718710831/pexels-asadphoto-1450360_qytidm.jpg"
+                // src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718710831/pexels-asadphoto-1450360_qytidm.jpg"
+                src="/Assets/images/home_page_india_destinations/goa.jpg"
                 alt="package"
               />
               <h2 className="location">Goa</h2>
@@ -87,7 +90,8 @@ function AllPackagesInHome() {
               }}
             >
               <img
-                src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718727116/pexels-swastikarora-19743480_pphkmv.jpg"
+                // src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718727116/pexels-swastikarora-19743480_pphkmv.jpg"
+                src="/Assets/images/home_page_india_destinations/kerala.jpg"
                 alt="package"
               />
               <h2 className="location">Alleppey, Kumarakom</h2>
@@ -99,7 +103,8 @@ function AllPackagesInHome() {
               }}
             >
               <img
-                src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718727197/pexels-utkarsh-636258668-18446898_sx3isc.jpg"
+                // src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718727197/pexels-utkarsh-636258668-18446898_sx3isc.jpg"
+                src="/Assets/images/home_page_india_destinations/rajastan.jpg"
                 alt="package"
               />
               <h2 className="location">Rajastan</h2>

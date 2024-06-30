@@ -64,7 +64,7 @@ function MyPackages() {
             <h3>{obj.name}</h3>
             <p>{obj.destination}</p>
             <span>
-              Price: <i classN="fa-solid fa-indian-rupee-sign"></i>
+              Price: <i className="fa-solid fa-indian-rupee-sign"></i>
               {obj.totalPrice}
             </span>
             <div className="cancelPackage">

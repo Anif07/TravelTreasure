@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Route, Routes, useLocation, useNavigate } from "react-router";
 import {
@@ -8,6 +8,7 @@ import {
 import "../../styles/packages/packageBilling.css";
 import Loading from "../common/Loading";
 import PackageBookingConfirm from "./PackageBookingConfirm";
+import { toast } from "react-toastify";
 
 function PackageBilling() {
   const location = useLocation();
@@ -16,6 +17,8 @@ function PackageBilling() {
   const { from, time, adults, childrens, status } = useSelector(
     (state) => state.singlePackage
   );
+  const [email, setEmail] = useState("");
+  const [confirmEmail, setConfirmEmail] = useState("");
   const Exploringpackage = useSelector(
     (state) => state.singlePackage.package[0]
   );
@@ -51,9 +54,13 @@ function PackageBilling() {
         id: id,
       })
     ).then((result) => {
-      if (result.type === "SinglePackageSlice/PostToMyTripsIndia/fulfilled") {
+      if (
+        result.type === "SinglePackageSlice/PostToMyTripsIndia/fulfilled" &&
+        email === confirmEmail
+      ) {
         navigate("/packageBookingConfirm");
       } else {
+        toast.warning("Confirm email Correctly");
         console.error("Order completion failed", result.error);
       }
     });
@@ -180,8 +187,19 @@ function PackageBilling() {
               id="emailforPackage"
               placeholder="Email"
               required
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
             />
-            <input type="email" id="confirmEmail" placeholder="Confirm Email" />
+            <input
+              type="email"
+              id="confirmEmail"
+              placeholder="Confirm Email"
+              required
+              onChange={(e) => {
+                setConfirmEmail(e.target.value);
+              }}
+            />
             <input
               type="text"
               id="numberforPackage"
