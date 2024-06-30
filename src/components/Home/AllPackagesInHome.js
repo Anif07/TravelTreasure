@@ -48,6 +48,7 @@ function AllPackagesInHome() {
               }}
             >
               <img
+                id="homePackImg"
                 src="https://res.cloudinary.com/dsysrrxod/image/upload/v1718694349/pexels-sudipta-1603650_jotcs6.jpg"
                 alt="package"
               />

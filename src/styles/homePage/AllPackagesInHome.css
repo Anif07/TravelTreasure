@@ -46,7 +46,6 @@
 }
 .homePackageImgContainer img:hover {
   transform: scale(1.2);
-  /* object-fit: contain; */
 }
 .grid1 {
   display: grid;
