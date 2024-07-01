@@ -76,7 +76,6 @@ function App() {
           />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/Login" element={<LogIn />} />
-          {/* Additional routes commented out for clarity */}
         </Routes>
       </Suspense>
     </div>

@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 
 import Footer from "../components/Home/Footer";
+import Loading from "../components/common/Loading";
 const AllPackagesComponent = lazy(() =>
   import("../components/Packages/AllPackages")
 );
@@ -14,7 +15,7 @@ const MemoizedPackageSearch = React.memo(PackageSearchComponent);
 function Packages() {
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loading />}>
         <MemoizedPackageSearch />
         <MemoizedAllPackages />
       </Suspense>
