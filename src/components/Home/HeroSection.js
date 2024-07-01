@@ -10,7 +10,7 @@ import {
 } from "../../redux/slices/heroSectionSlice";
 import { Link } from "react-router-dom";
 
-const slideInterval = 3000;
+const slideInterval = 2500;
 function HeroSection() {
   const slide = useSelector((state) => state.heroSection.slide);
   const autoSlide = useSelector((state) => state.heroSection.autoSlide);

@@ -34,6 +34,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "active link" : "link"
                 }
+                onClick={handleHamburger}
               >
                 <span>
                   <i className="fa-solid fa-house navLinkIcon"></i>Home
@@ -46,6 +47,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "active link" : "link"
                 }
+                onClick={handleHamburger}
               >
                 <span>
                   <i className="fa-solid fa-person-walking-luggage navLinkIcon"></i>
@@ -59,6 +61,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "active link" : "link"
                 }
+                onClick={handleHamburger}
               >
                 <span>
                   <i className="fa-solid fa-plane-departure navLinkIcon"></i>
@@ -72,6 +75,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "active link" : "link"
                 }
+                onClick={handleHamburger}
               >
                 <span>
                   <i className="fa-solid fa-hotel navLinkIcon"></i>Hotels
@@ -89,13 +93,14 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "active link" : "link"
                 }
+                onClick={handleHamburger}
               >
                 <span>
                   <i className="fa-solid fa-suitcase navLinkIcon"></i>My Trips
                 </span>
               </NavLink>
             </li>
-            <li className="Acctoun-cont">
+            <li className="Acctoun-cont" onClick={handleHamburger}>
               <div
                 className="Account"
                 onMouseEnter={handleAccountMouseEnter}

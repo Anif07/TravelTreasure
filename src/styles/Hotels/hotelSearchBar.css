@@ -192,6 +192,9 @@
     border-radius: 50%;
     margin-right: 8px;
   }
+  #toIncreaseWidth {
+    width: 50px;
+  }
   .HotelPlace h3 {
     font-size: 0.9rem;
   }

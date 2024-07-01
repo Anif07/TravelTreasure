@@ -63,6 +63,7 @@ function HotelSearch() {
             <img
               src="https://res.cloudinary.com/dsysrrxod/image/upload/v1719308445/pexels-k3ith-6057333_c0epsq.jpg"
               alt="places"
+              id="toIncreaseWidth"
             />
             <div>
               <h3>Bangalore</h3>
@@ -103,6 +104,7 @@ function HotelSearch() {
             <img
               src="https://res.cloudinary.com/dsysrrxod/image/upload/v1719316010/pexels-pravin-kannah-photography-42707363-14572850_vvtn3a.jpg"
               alt="places"
+              id="toIncreaseWidth"
             />
             <div>
               <h3>Manali</h3>
