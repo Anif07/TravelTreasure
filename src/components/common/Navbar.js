@@ -100,7 +100,7 @@ function Navbar() {
                 </span>
               </NavLink>
             </li>
-            <li className="Acctoun-cont" onClick={handleHamburger}>
+            <li className="Acctoun-cont">
               <div
                 className="Account"
                 onMouseEnter={handleAccountMouseEnter}
@@ -118,10 +118,14 @@ function Navbar() {
                     <Link>Favorites</Link>
                   </li> */}
                   <li>
-                    <Link to="/Login">Login</Link>
+                    <Link to="/Login" onClick={handleHamburger}>
+                      Login
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/Signup">Signup</Link>
+                    <Link to="/Signup" onClick={handleHamburger}>
+                      Signup
+                    </Link>
                   </li>
                 </ul>
               )}
