@@ -26,7 +26,7 @@
 
 .singleHotelImgContainer > img:first-child {
   grid-row: span 2;
-  height: inherit;
+  height: 100%;
 }
 
 .singleHotelImgContainer img:nth-child(2),

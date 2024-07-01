@@ -58,6 +58,12 @@ function PackageSearch() {
             />
             <datalist id="locations">
               <option value="Goa" />
+              <option value="Chennai" />
+              <option value="Delhi" />
+              <option value="Alleppey" />
+              <option value="Jaipur" />
+              <option value="Manali" />
+              <option value="Darjeeling" />
             </datalist>
           </div>
           <div>
