@@ -18,6 +18,9 @@ a {
   /* margin-bottom: 15px; */
   position: relative;
 }
+.logoContainer {
+  text-decoration: none;
+}
 .logo {
   font-size: 40px;
 }

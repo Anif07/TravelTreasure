@@ -13,6 +13,8 @@ import "../../styles/packages/single-package.css";
 import Footer from "../Home/Footer";
 import Loading from "../common/Loading";
 import { useNavigate } from "react-router";
+import { LiaRupeeSignSolid } from "react-icons/lia";
+import { FaIndianRupeeSign } from "react-icons/fa6";
 // import { setFrom } from "../../redux/slices/SinglePackageSlice";
 
 function SinglePackage() {
@@ -89,7 +91,7 @@ function SinglePackage() {
             <div>
               <h3>Price</h3>
               <p className="price">
-                <i className="fa-solid fa-indian-rupee-sign"></i>
+                <FaIndianRupeeSign />
                 {Exploringpackage?.price}
               </p>
             </div>
@@ -172,6 +174,7 @@ function SinglePackage() {
                   <input
                     type="date"
                     id="dateInput"
+                    // className="form-control"
                     min={today}
                     value={from}
                     required
@@ -208,11 +211,12 @@ function SinglePackage() {
                   <h3 className="ticketHeading">Tickets:</h3>
                   <div>
                     <label className="adult">
-                      Adult: <h3>{adultsPrice}</h3>
+                      Adult: <h5>{adultsPrice}</h5>
                     </label>
                     <input
                       type="number"
                       id="adults"
+                      className="form-control"
                       name="adults"
                       onChange={(e) => dispatch(setAdults(e.target.value))}
                       max="5"
@@ -222,11 +226,12 @@ function SinglePackage() {
                   </div>
                   <div>
                     <label className="children">
-                      Children: <h3>{childrensPrice}</h3>
+                      Children: <h5>{childrensPrice}</h5>
                     </label>
                     <input
                       type="number"
                       id="childrens"
+                      className="form-control"
                       name="childrens"
                       min="0"
                       max="2"
@@ -240,7 +245,7 @@ function SinglePackage() {
                   <div className="total">
                     <p>Total:</p>
                     <span>
-                      <i ClassName="fa-solid fa-indian-rupee-sign"></i>
+                      <FaIndianRupeeSign />
                       {adultsPrice + +childrensPrice}
                     </span>
                   </div>

@@ -13,6 +13,7 @@ import {
   setIsSearchBar,
 } from "../../redux/slices/Hotels/HotelSlice";
 import { setPersons } from "../../redux/slices/Flights/FlightSearchSlice";
+import { FaIndianRupeeSign } from "react-icons/fa6";
 
 function SearchedFlights() {
   const { flights, status, date, to } = useSelector(
@@ -119,7 +120,7 @@ function SearchedFlights() {
                 </div>
                 <div className="flightViewDetails">
                   <h2>
-                    <i className="fa-solid fa-indian-rupee-sign"></i>
+                    <FaIndianRupeeSign />
                     {obj?.price}
                   </h2>
                   <button onClick={() => FlightViewDetails(obj.id)}>

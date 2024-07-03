@@ -172,6 +172,7 @@ function PackageBilling() {
             <input
               type="text"
               id="firstName"
+              className="form-control"
               name="firstName"
               placeholder="First Name"
               required
@@ -179,12 +180,14 @@ function PackageBilling() {
             <input
               type="text"
               id="lastNameinPackage"
+              className="form-control"
               name="lastName"
               placeholder="Last Name"
             />
             <input
               type="email"
               id="emailforPackage"
+              className="form-control"
               placeholder="Email"
               required
               onChange={(e) => {
@@ -195,6 +198,7 @@ function PackageBilling() {
               type="email"
               id="confirmEmail"
               placeholder="Confirm Email"
+              className="form-control"
               required
               onChange={(e) => {
                 setConfirmEmail(e.target.value);
@@ -203,6 +207,7 @@ function PackageBilling() {
             <input
               type="text"
               id="numberforPackage"
+              className="form-control"
               placeholder="Phone Number"
               required
             />

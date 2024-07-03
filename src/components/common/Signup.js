@@ -71,7 +71,7 @@ function Signup() {
         </div>
         <div className="signup-input-cont">
           <input
-            type="text"
+            type="password"
             id="confirmPassword"
             name="confirmPassword"
             placeholder="Confirm Password"

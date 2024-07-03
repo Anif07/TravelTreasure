@@ -4,6 +4,9 @@
   box-sizing: border-box;
   /* scrollbar-color: #f4651e; */
 }
+p {
+  margin: 0;
+}
 
 ::-webkit-scrollbar {
   width: 12px;

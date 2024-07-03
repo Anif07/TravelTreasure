@@ -67,6 +67,9 @@
 .singleHotelRight > div {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.605);
   padding: 20px;
+  border-radius: 10px;
+  position: sticky;
+  top: 100px;
 }
 .singleHotelRight ul {
   list-style-position: inside;

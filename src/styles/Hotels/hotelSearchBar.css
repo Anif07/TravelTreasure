@@ -96,6 +96,10 @@
   cursor: pointer;
   width: 360px;
 }
+.HotelPlace h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
 .HotelPlace img {
   width: 60px;
   height: 60px;

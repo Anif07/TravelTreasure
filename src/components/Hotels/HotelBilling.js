@@ -8,6 +8,7 @@ import { useLocation, useNavigate } from "react-router";
 import Loading from "../common/Loading";
 import NetworkError from "../common/NetworkError";
 import "../../styles/Hotels/hotelBilling.css";
+import { FaIndianRupeeSign } from "react-icons/fa6";
 
 function HotelBilling() {
   const { singleHotel, singleHotelStatus, checkIn, checkOut, persons } =
@@ -105,14 +106,14 @@ function HotelBilling() {
                 <tr>
                   <td className="left">Sub Total :</td>
                   <td className="right">
-                    <i className="fa-solid fa-indian-rupee-sign"></i>
+                    <FaIndianRupeeSign />
                     {singleHotel[0]?.price}
                   </td>
                 </tr>
                 <tr>
                   <td className="left">Total:</td>
                   <td className="right">
-                    <i className="fa-solid fa-indian-rupee-sign"></i>{" "}
+                    <FaIndianRupeeSign />
                     {singleHotel[0]?.price}
                   </td>
                 </tr>
@@ -139,6 +140,7 @@ function HotelBilling() {
             <input
               type="text"
               id="firstName"
+              className="form-control"
               name="firstName"
               placeholder="First Name"
               required
@@ -146,19 +148,27 @@ function HotelBilling() {
             <input
               type="text"
               id="lastNameforHotelBook"
+              className="form-control"
               name="lastName"
               placeholder="Last Name"
             />
             <input
               type="email"
               id="emailforHotelBook"
+              className="form-control"
               placeholder="Email"
               required
             />
-            <input type="email" id="confirmEmail" placeholder="Confirm Email" />
+            <input
+              type="email"
+              id="confirmEmail"
+              className="form-control"
+              placeholder="Confirm Email"
+            />
             <input
               type="text"
               id="numberforHotelBook"
+              className="form-control"
               placeholder="Phone Number"
               required
             />

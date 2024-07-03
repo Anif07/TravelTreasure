@@ -50,6 +50,7 @@
 }
 .slideContent h2 {
   text-shadow: 1px 1px 10px black;
+  text-align: center;
 }
 .bookInHerosection {
   margin: 10px 0;

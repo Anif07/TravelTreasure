@@ -32,7 +32,6 @@ function FlightBookingDetails() {
     persons,
     seats,
     from,
-
     selectedSeats,
     seatsIds,
   } = useSelector((state) => state.FlightSearch);
@@ -102,6 +101,11 @@ function FlightBookingDetails() {
     const number = document.getElementById("number").value;
     const firstNames = document.querySelectorAll("#firstName");
     const lastNames = document.querySelectorAll("#lastName");
+
+    if (+persons !== seatsIds.length) {
+      toast.info("please select seats");
+      console.log(persons, seatsIds.length);
+    }
 
     if (email && number && firstNames && lastNames) {
       dispatch(postToMyFlights(data));

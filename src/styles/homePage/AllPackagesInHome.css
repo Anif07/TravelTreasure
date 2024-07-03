@@ -30,7 +30,8 @@
   top: 0;
   left: 0;
   background-color: rgba(45, 44, 44, 0.336);
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 1.5rem;
   color: white;
   text-shadow: 0 0 20px black;
   width: 100%;

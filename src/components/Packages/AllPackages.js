@@ -15,6 +15,7 @@ import Loading from "../common/Loading";
 import { useNavigate } from "react-router";
 import NetworkError from "../common/NetworkError";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
 function AllPackages() {
   const dispatch = useDispatch();
@@ -121,13 +122,13 @@ function AllPackages() {
         {uptoIndia === 8 ? (
           <div className="readMoreBtnCont">
             <button onClick={() => dispatch(setuptoIndia())}>
-              See More <i ClassName="fa-solid fa-chevron-down"></i>
+              See More <FaChevronDown />
             </button>
           </div>
         ) : (
           <div className="readMoreBtnCont">
             <button onClick={() => dispatch(setuptoIndiatoInitial())}>
-              See less <i ClassName="fa-solid fa-chevron-up"></i>
+              See less <FaChevronUp />
             </button>
           </div>
         )}
@@ -179,13 +180,13 @@ function AllPackages() {
         {uptoInternational === 8 ? (
           <div className="readMoreBtnCont">
             <button onClick={() => dispatch(setuptoInternational())}>
-              See More <i ClassName="fa-solid fa-chevron-down"></i>
+              See More <FaChevronDown />
             </button>
           </div>
         ) : (
           <div className="readMoreBtnCont">
             <button onClick={() => dispatch(setuptoInternationalInital())}>
-              See Less <i ClassName="fa-solid fa-chevron-up"></i>
+              See Less <FaChevronUp />
             </button>
           </div>
         )}

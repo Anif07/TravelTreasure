@@ -114,7 +114,7 @@ function SearchBarFlight() {
           />
         </div>
         <div>
-          <select id="flightClass" name="flightClass">
+          <select class="form-select" id="flightClass" name="flightClass">
             <option>Select Class</option>
             <option>Economy</option>
             <option>Premium Economy</option>

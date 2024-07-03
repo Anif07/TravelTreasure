@@ -39,8 +39,10 @@ function LogIn() {
           });
         }
       } else {
-        navigate("/home");
+        navigate("/");
       }
+    } else {
+      toast.info("user Details not Found");
     }
   };
 
