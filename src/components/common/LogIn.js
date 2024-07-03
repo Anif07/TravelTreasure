@@ -60,7 +60,7 @@ function LogIn() {
         navigate(parsedLocation.location, { state: { id: parsedLocation.id } });
       }
     } else {
-      navigate("/home");
+      navigate("/");
     }
   };
 
