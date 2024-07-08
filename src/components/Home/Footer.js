@@ -54,7 +54,10 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 TravelTreasure. All rights reserved.</p>
+        <p>
+          &copy; 2024 TravelTreasure. All rights reserved. designed and
+          developed by Anif
+        </p>
       </div>
     </footer>
   );
