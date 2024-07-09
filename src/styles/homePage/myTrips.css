@@ -154,7 +154,7 @@ a {
   }
   .packageContainer {
     width: 170px;
-    height: 220px;
+    height: fit-content;
     padding: 7px;
   }
   .mypackageImgContainer {
@@ -206,7 +206,7 @@ a {
   }
   .packageContainer {
     width: 160px;
-    height: 200px;
+    height: fit-content;
     padding: 7px;
   }
   .mypackageImgContainer {
