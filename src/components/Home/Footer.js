@@ -42,7 +42,7 @@ function Footer() {
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a target="blank">
+          <a href="https://github.com/Anif07" target="blank">
             <i className="fa-brands fa-github"></i>
           </a>
           <a href="https://www.instagram.com/anif034/" target="blank">
