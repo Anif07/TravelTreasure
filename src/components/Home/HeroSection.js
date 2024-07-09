@@ -9,12 +9,21 @@ import {
   stopAutoSlide,
 } from "../../redux/slices/heroSectionSlice";
 import { Link } from "react-router-dom";
+import {
+  fetchIndianPackages,
+  fetchInternationalPackages,
+} from "../../redux/slices/AllPackagesSlice";
 
 const slideInterval = 2500;
 function HeroSection() {
   const slide = useSelector((state) => state.heroSection.slide);
   const autoSlide = useSelector((state) => state.heroSection.autoSlide);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchIndianPackages());
+    dispatch(fetchInternationalPackages());
+  }, []);
 
   useEffect(() => {
     let slideTimer;
