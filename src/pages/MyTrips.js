@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router";
 import { Link, NavLink } from "react-router-dom";
 import MyPackages from "../components/MyTripsPages/MyPackages";
@@ -7,6 +7,9 @@ import MyHotels from "../components/MyTripsPages/MyHotels";
 import "../styles/homePage/myTrips.css";
 
 function MyTrips() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="myTripsContainer">
       <div className="tripsUpperContainer">

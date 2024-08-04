@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect } from "react";
 
 import Footer from "../components/Home/Footer";
 import Loading from "../components/common/Loading";
@@ -13,6 +13,9 @@ const MemoizedAllPackages = React.memo(AllPackagesComponent);
 const MemoizedPackageSearch = React.memo(PackageSearchComponent);
 
 function Packages() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Suspense fallback={<Loading />}>
